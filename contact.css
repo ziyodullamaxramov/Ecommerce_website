@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --Pcolor:#9F9F9F;
+    
+}
+header{
+    text-align: right;
+    padding: 3%;
+}
+.nav{
+    display: inline-block;
+    margin-right: 5%;
+    width: 520px;
+}
+.nav1{
+    display: inline-block;
+    margin-right: 5%;
+    width: 400px;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 15%;
+    list-style: none;
+}
+.nav1 li{
+    display: inline-block;
+    margin-right: 15%;
+    list-style: none;
+}
+.nav a, .nav1 a{
+    transition: all .4s;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+header a:hover{
+    color: rgb(118, 67, 67);
+}
