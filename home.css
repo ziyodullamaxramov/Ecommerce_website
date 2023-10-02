@@ -31,6 +31,7 @@
 .main_header{
     display: flex;
     justify-content: space-around;
+    margin-bottom: -170px;
 }
 .header_img{
     position: relative;
@@ -53,7 +54,6 @@
     line-height: normal;
 }
 .header_text h6{
-    color: #000;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -68,6 +68,11 @@
     justify-content: space-around;
     background-color: #FAF4F4;;
 }
+.first_page-two h4{
+    position: relative;
+    right:-190px ;
+    top: -230px;
+}
 .first_page-left{
     padding-right: 110px;
 }
@@ -75,7 +80,6 @@
     position: relative;
     right: -190px;
     top: -170px;
-    color: #000;
     font-family: Poppins;
     font-size: 36px;
     font-style: normal;
@@ -84,12 +88,12 @@
 }
 .first_page-small{
     position: relative;
-    right: -160px;
+    right: -110px;
     top: -180px;
     font-size: 24px;
-    color: #000;
     font-weight: 400;
-    
+    margin-bottom: -90px;
+     
 }
 .clearfix{
     overflow: auto;
@@ -106,7 +110,6 @@
     top: 70px;
 }
  .third_page-info h1{
-    color: #000;
 font-family: Poppins;
 font-size: 36px;
 font-style: normal;
@@ -127,11 +130,17 @@ line-height: normal;
 }
 .text_section-third{
     position: relative;
-    top: 30px;
+    top: 5px;
     display: flex;
+    gap: 20px;
+    right: -90px;
     justify-content: space-around;
 
 }
+/* .text_section-one,h5{
+    position: relative;
+    right: -30px;
+} */
 .text_section-third,p{
     color: #9F9F9F;
     font-family: Poppins;
@@ -148,11 +157,13 @@ line-height: normal;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    position: relative;
 }
+
 .third_last-word,h6{
     position: relative;
     top: 55px;
-    left: -300px;
+    left: -350px;
     }
 .four_section{
     position: relative;
@@ -170,24 +181,24 @@ line-height: normal;
     position:relative;
     top:180px;
 }
-.four_text_section,h5{
-    color: #000;
+.four_text_section,h3{
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     position: relative;
+    right: -50px;
     bottom: -30px;
 }
-.four_text_section,h3{
+.four_text_section,h2{
     color: #000;
     font-family: Poppins;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     position: relative;
-    right: 50px;
+    right: 30px;
     
     
 }
@@ -200,7 +211,72 @@ line-height: normal;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    position: relative;
+    right: -30px;
     
 }
+.fife_first-page{
+    position: relative;
+    top: 150px;
+}
+.fife_first-page{
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+ .fife_fife_first,h1{
+    color: #000;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.img_fife{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 25px;
+    top: 30px;
+}
+.text_section-fife{
+    position: relative;
+    top: 35px;
+    display: flex;
+    gap: 20px;
+    right: -90px;
+    justify-content: space-around;
+}
+
+
+    .text_fife,p{
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    
+
+}
+.text_fife,h5{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    right: 20px;
+    top: -20px;
+}
+
+.third_last-word,h6{
+    position: relative;
+    top: 55px;
+    left: -350px;
+    }
+
 
 
