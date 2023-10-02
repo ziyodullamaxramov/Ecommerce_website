@@ -61,3 +61,100 @@ aside span{
 .aside_main{
     text-align: center;
 }
+.totals{
+    
+    height: 250px;
+    text-align: center;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.product{
+    width: 650px;
+    background: #FFF9E5;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 3%;
+}
+.product p{
+    margin: 0 30px;
+    font-weight: 550;
+}
+.mebel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    margin: 3%;
+    margin-left: 0;
+}
+.mebel .mask{
+    padding: 15 0px;
+    background: #fdf0c5;
+    border-radius: 12px;
+}
+.mebel .one{
+    border: 1px solid var(--Pcolor);
+    padding: 25%;
+    border-radius: 8px;
+}
+.total_blog{
+    display: inline-block;
+    margin: 1%;
+}
+.checkout{
+    display: inline-block;
+    width: 350px;
+    height: 320px;
+    background-color: #FFF9E5;
+    margin: 1%;
+    padding: 4%;
+    padding-top: 1.5%;
+}
+.checkout .subtotal_p{
+    text-align: left;
+    font-weight: 550;
+}
+.checkout .subtotal_p::after{
+    content: "Rs. 250,000.00";
+    margin-left: 39%;
+    color: var(--Pcolor); 
+    font-size: 12px; 
+}
+.checkout .total_p{
+    text-align: left;
+    font-weight: 550;
+}
+.checkout .total_p::after{
+    content: "Rs. 250,000.00";
+    margin-left: 39%;
+    color: #dba230;
+    font-size: 16px;
+}
+.checkout button{
+    padding: 17px 50px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 12px;
+    transition: all .4s;
+}
+.checkout button:hover{
+    background-color:#fdf0c5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p{
+    color: var(--Pcolor);
+}
