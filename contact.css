@@ -39,7 +39,7 @@ header{
     font-weight: 600;
 }
 header a:hover{
-    color: rgb(118, 67, 67);
+    color: red;
 }
 aside{
     width: 100%;
@@ -60,4 +60,145 @@ aside span{
 }
 .aside_main{
     text-align: center;
+}
+.h21{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.h2{
+    width: 500px;
+    text-align: center;
+    line-height: 27px;
+}
+.h2 h2{
+    font-size: 30px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 400px;
+    margin-left: -10%;
+}
+.adres, .phone, .work{
+    position: relative;
+}
+.adres i, .phone i, .work i{
+    position: absolute;
+    left: -40px;
+    font-size: 20px;
+}
+.adress{
+    line-height: 25px;
+    margin-left: -10%;
+}
+.input{
+    margin-left: 70%;
+}
+.in{
+    width: 400px;
+    border: 1px solid var(--Pcolor);
+    padding: 15px 30px;
+    border-radius: 12px;
+}
+.in input{
+    border: none;
+    outline: none;
+}
+textarea{
+    padding: 30px;
+    outline: none;
+    border-radius: 12px;
+    border-color: #9F9F9F;
+    line-height: 26px;
+}
+.div button{
+    padding: 15px 60px;
+    background: transparent;
+    border-radius: 12px;
+    border: 1px solid var(--Pcolor);
+    transition: all .4s;
+}
+.div button:hover{
+    background-color: #f1eded;
+}
+.services{
+    width: 100%;
+    height: 300px;
+    background: #FAF4F4;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services_container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+
+}
+.free, .return, .payment{
+    margin: 0 10%;
+}
+.services_container h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.services_container p{
+    line-height: 30px;
+    font-size: 20px;
+}
+footer{
+    width: 80%;
+   
+    height: 300px;
+    margin: 2% 0;
+    margin-left: 10%;
+}
+.footer{
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 510px 200px 200px 350px;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+    line-height: 60px;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+    transition: all .4s;
+}
+.footer li a:hover{
+color: red;
+}
+.info, .links, .help, .newsletter{
+    margin-right: 20%;    
+}
+.info{
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+}
+.decaration{
+    text-decoration: solid;
+}
+
+.p_teg{
+
+    margin: 60px 10%;
+}
+
+
+
+
+
+.p{
+    color: var(--Pcolor);
 }
