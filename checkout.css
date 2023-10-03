@@ -1,3 +1,9 @@
+
+
+/* .container{
+    width: 1350px;
+    margin:auto 0; 
+} */
 *{
     margin: 0;
     padding: 0;
@@ -41,3 +47,202 @@ header{
 header a:hover{
     color: red;
 }
+.checkout_head{
+    position: relative;
+    text-align: center;
+    top: -260px;
+}
+.checkout_headimg{
+    position: relative;
+    top: -230px;
+    right: -675px;
+}
+.content_checkout{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:-190px;
+}
+.left_header{
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+.content_checkout{
+    position: relative;
+    top: -120px;
+}
+.one_point{
+    
+}
+.two_point{
+   
+}
+.label_section{
+    line-height: 70px;
+}
+.right_contenth3{
+    font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.right_contentp{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 4px;
+}
+.subtotal_first{
+    font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.right_contentb{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 10px;
+}
+.subtotal{
+    color: #B88E2F;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footersection */
+.services{
+    width: 100%;
+    height: 300px;
+    background: #FAF4F4;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services_container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+
+}
+.free, .return, .payment{
+    margin: 0 10%;
+}
+.services_container h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.services_container p{
+    line-height: 30px;
+    font-size: 20px;
+}
+footer{
+    width: 80%;
+   
+    height: 300px;
+    margin: 2% 0;
+    margin-left: 10%;
+}
+.footer{
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 510px 200px 200px 350px;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+    line-height: 60px;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+    transition: all .4s;
+}
+.footer li a:hover{
+color: red;
+}
+.info, .links, .help, .newsletter{
+    margin-right: 20%;    
+}
+.info{
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+}
+.decaration{
+    text-decoration: solid;
+}
+
+.p_teg{
+
+    margin: 60px 10%;
+}
+
+
+
+
+
+
+
+
+
+
+.p{
+    color: var(--Pcolor);
+}
+
