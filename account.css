@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --Pcolor:#9F9F9F;
+    
+}
+header{
+    text-align: right;
+    padding: 2.9%;
+}
+.nav{
+    display: inline-block;
+    margin-right: 5%;
+    width: 520px;
+}
+.nav1{
+    display: inline-block;
+    margin-right: 5%;
+    width: 400px;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 15%;
+    list-style: none;
+}
+.nav1 li{
+    display: inline-block;
+    margin-right: 15%;
+    list-style: none;
+}
+.nav a, .nav1 a{
+    transition: all .4s;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+header a:hover{
+    color: rgb(118, 67, 67);
+}
+aside{
+    width: 93%;
+    height: 340px;
+    background-image: url(./cartmedia/Rectangle\ 1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+aside a{
+    color: black;
+    text-decoration: none;
+}
+aside span{
+    font-weight: 600;
+}
+.text1{
+    position: absolute;
+    left: 600px;
+    top: 230px;
+}
+.text2{
+    position: absolute;
+    left: 600px;
+    top: 270px;
+}
+.Password{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.Password h3{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.Password input{
+    width: 380px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.Password button{
+    width: 180px;
+    height: 56px;
+    border-radius: 15px;
+}
+.Log{
+    margin-top: -400px;
+    margin-left: 800px;
+}
+.Log h3{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.Log p{
+    font-size: 15px;
+    margin-top: 30px;
+}
+.Log input{
+    width: 380px;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.Log button{
+    width: 180px;
+    height: 56px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
