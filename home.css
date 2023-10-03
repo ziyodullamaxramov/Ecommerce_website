@@ -1,9 +1,47 @@
 .container{
-    width: 1300px;
-    margin: 0 auto
+    width: 1400px;
+    margin: 0 auto ;
 }
+header{
+    text-align: right;
+    padding: 2.9%;
+    
+ background-color:#FBEBB5;;
+    ;
+}
+.nav{
+    display: inline-block;
+    margin-right: 5%;
+    width: 520px;
+}
+.nav1{
+    display: inline-block;
+    margin-right: 5%;
+    width: 400px;
+}
+.nav li{
+    display: inline-block;
+    margin-right: 15%;
+    list-style: none;
+}
+.nav1 li{
+    display: inline-block;
+    margin-right: 15%;
+    list-style: none;
+}
+.nav a, .nav1 a{
+    transition: all .4s;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+header a:hover{
+    color: red;}
+    .first_page{
+        background-color:#FBEBB5;;
+    }
 
-.first_page{
+/* .first_page{
     background-color:#FBEBB5;;
 }
 .main_navigation{
@@ -27,11 +65,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+} */
 .main_header{
     display: flex;
     justify-content: space-around;
     margin-bottom: -170px;
+    background-color: #FBEBB5;
 }
 .header_img{
     position: relative;
@@ -137,10 +176,7 @@ line-height: normal;
     justify-content: space-around;
 
 }
-/* .text_section-one,h5{
-    position: relative;
-    right: -30px;
-} */
+
 .text_section-third,p{
     color: #9F9F9F;
     font-family: Poppins;
@@ -163,7 +199,9 @@ line-height: normal;
 .third_last-word,h6{
     position: relative;
     top: 55px;
-    left: -350px;
+    right: -60px;
+    font-size:20px;
+    text-align: center;
     }
 .four_section{
     position: relative;
@@ -218,6 +256,7 @@ line-height: normal;
 .fife_first-page{
     position: relative;
     top: 150px;
+    
 }
 .fife_first-page{
     position: relative;
@@ -232,24 +271,44 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.under_fife-main{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    position: relative;
+    top:120px;
+    right: 150px;
+    
+    
+}
+.fife_under{
+    position: relative;
+    top: -55px;
+    right: 25px;
+}
+.fife_under img{
+    color: grey;
+    width: 12px;
+    height: 12px;
+}
 .img_fife{
+    
     display: flex;
     justify-content: space-around;
     position: relative;
-    padding: 25px;
+    padding-right: 0px;
     top: 30px;
 }
 .text_section-fife{
     position: relative;
     top: 35px;
     display: flex;
-    gap: 20px;
-    right: -90px;
+    gap: 10px;
+    right: -140px;
     justify-content: space-around;
 }
 
-
-    .text_fife,p{
+ .text_fife,p{
     color: #9F9F9F;
     font-family: Poppins;
     font-size: 16px;
@@ -277,6 +336,100 @@ line-height: normal;
     top: 55px;
     left: -350px;
     }
+    .container{
+    width: 1200px;
+    margin: 0 auto;
+    }
+.six_section img{
+    position: relative;
+    top: 160px;
+   }
+   .six_h1{
+    position: relative;
+    top: -209px;
+    text-align: center;
+    font-size: 75px;
 
+   }
+   .six_p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   }
+   .six_p{
+   color: #000;
+   font-family: Poppins;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.six_section button{
+    position: relative;
+    top: -30px;
+    padding: 12px 50px;
+    border-radius: 50px;
+    background: #FAF4F4;
+    border: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
 
+}
+.six_section-img{
+    position: relative;
+    right: 170px;
+    size: 500px;
+    left: -70px;
+
+}
+footer{
+    width: 80%;
+   
+    height: 300px;
+    margin: 2% 0;
+    margin-left: 10%;
+}
+.footer{
+    width: 100%;
+    height: 330px;
+    display: grid;
+    grid-template-columns: 510px 200px 200px 350px;
+    justify-content: center;
+}
+.footer li{
+    list-style: none;
+    line-height: 60px;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+    transition: all .4s;
+}
+.footer li a:hover{
+color: red;
+}
+.info, .links, .help, .newsletter{
+    margin-right: 20%;    
+}
+.info{
+    display: flex;
+    align-items: center;
+    line-height: 26px;
+}
+.decaration{
+    text-decoration: solid;
+}
+
+.p_teg{
+
+    margin: 60px 10%;
+}
+.p{
+    color: var(--Pcolor);
+}
+   
 
