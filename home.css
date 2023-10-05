@@ -1,20 +1,23 @@
 .container{
     width: 1400px;
     margin: 0 auto ;
-}
-{
+} 
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 :root{
-    --Pcolor:#9F9F9F;
+    --Pcolor:#9F9F9F; 
     
-}
+} */
 header{
     text-align: right;
     padding: 2.9%;
+    
+ background-color:#FBEBB5;;
+    ;
 }
 .nav{
     display: inline-block;
@@ -43,8 +46,10 @@ header{
     font-weight: 600;
 }
 header a:hover{
-    color: red;
-}
+    color: red;}
+    .first_page{
+        background-color:#FBEBB5;;
+    }
 
 /* .first_page{
     background-color:#FBEBB5;;
