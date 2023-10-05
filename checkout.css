@@ -55,7 +55,7 @@ header a:hover{
 .checkout_headimg{
     position: relative;
     top: -230px;
-    right: -675px;
+    /* right: -675px; */
 } 
 .content_checkout{
     display: flex;
