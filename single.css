@@ -41,3 +41,211 @@ header{
 header a:hover{
     color: red;
 }
+nav{
+    position: relative;
+    right: -200px;
+}
+.nav_sec{
+    display:flex;
+    gap: 14px;
+    position: relative;
+    right: -120px;
+    top: 50px;
+    text-transform: capitalize;
+}
+.nav_insect{
+    width: 1px;
+    height: 24px;
+    background-color:#9F9F9F;
+}
+.nav_p{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font
+}
+.nav_asgard{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.main_section{
+    position: relative;
+    top: 80px;
+    display: flex;
+    padding: 90px;
+/* justify-content: space-between; */
+}
+.right_img img{
+    display: block;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+   background-color: #FFF9E5;*/
+
+   
+}
+.middle_img img{
+    width: 523px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #FFF9E5;
+position: relative;
+/* left: -270px; */
+top:20px;
+
+
+}
+.main_section_content{
+    margin-left: 10%;
+    line-height: 30px;
+
+}
+.main_section_content i{
+    color: #FFDA5B;
+
+}
+.main_top{
+    font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main_mid{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.main_star{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-block;
+}
+.main_text,h5{
+    width: 424px;
+height: 80px;
+flex-shrink: 0;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main_law{
+    color: #9F9F9F;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+}
+.size_div{
+    display: flex;
+    gap: 10px;
+}
+.sizel{
+ border-radius: 5px;
+background: #FBEBB5;
+padding: 3px 7px;
+}
+.sizexl{
+ border-radius: 5px;
+ padding: 3px 4px;
+ background: #FAF4F4;
+
+}
+.sizels{
+border-radius: 5px;
+padding: 3px 4px;
+background: #FAF4F4;
+}
+.size_round{
+    
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    gap: 16px;
+   
+
+}
+.one{
+    width: 30px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #816DFA;
+}
+.two{
+    width: 30px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #000;
+}
+.three{
+    width: 30px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #CDBA7B;
+}
+.size_four{
+    display: flex;
+    gap: 10px;
+ 
+}
+.right{
+    width: 123px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #9F9F9F;
+background: #FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.left{
+    width: 215px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.pcontainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.pcontainer i{
+    color: black;
+    margin-left: 15px;
+}
+.vector{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
