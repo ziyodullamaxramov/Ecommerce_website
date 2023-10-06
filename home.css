@@ -51,31 +51,6 @@ header a:hover{
         background-color:#FBEBB5;;
     }
 
-/* .first_page{
-    background-color:#FBEBB5;;
-}
-.main_navigation{
-    display: inline-block;
-    vertical-align: middle;
-    position: relative;
-    right: -350px;
-
-}
-.main_navigation_items{
-    display: inline-block;
-    padding: 25px;
-    text-decoration: none;
-}
-.main_navigation_items a{
-    
-    text-decoration: none;
-    color: #000;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-} */
 .main_header{
     display: flex;
     justify-content: space-around;
@@ -94,6 +69,11 @@ header a:hover{
     top: 275px;
     right: -100px;
 }
+#shop{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    }
 .header_text h1{
     color: #000;
     font-family: Poppins;
@@ -360,6 +340,11 @@ line-height: normal;
     text-align: center;
     font-size: 75px;
 
+   }
+   .six_section{
+    position: relative;
+    top: 330px;
+    background-image: url(./imges_for-home/);
    }
    .six_p{
     color: #000;
