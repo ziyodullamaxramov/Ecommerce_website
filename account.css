@@ -42,15 +42,14 @@ header a:hover{
     color: rgb(118, 67, 67);
 }
 aside{
-    width: 93%;
+    width: 100%;
     height: 340px;
     background-image: url(./cartmedia/Rectangle\ 1.png);
     background-position: center;
     background-size: cover;
     display: flex;
-    align-items: center;
-    text-align: center;
     justify-content: center;
+    align-items: center;
 }
 aside a{
     color: black;
